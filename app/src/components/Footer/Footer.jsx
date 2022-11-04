@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <footer>
         <div className="footerEnlaces">
-          <div className="footerText">
+          <div className='excepcion'>
             <a> Home </a>
           </div>
           <div className="footerText">
@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="footerText">
             <a>Help</a>
           </div>
-          <div>
+          <div className='excepcionFinal'>
             <a>Manage Account</a>
           </div>
         </div>

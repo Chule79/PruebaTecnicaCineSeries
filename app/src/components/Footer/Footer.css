@@ -13,11 +13,20 @@ footer{
 }
 
 footer a{
-    color: aliceblue;
-    padding: 0px 25px 0px opx;
+   color: aliceblue; 
 } 
 .footerText{
     border-right: solid aliceblue 2px;
+    padding: 0px 25px 0px 25px;
+}
+.excepcion{
+    border-right: solid aliceblue 2px;
+    padding: 0px 25px 0px 0px;
+}
+.excepcionFinal{
+    border-right: solid aliceblue 2px;
+    border: none;
+    padding: 0px 25px 0px 25px;
 }
 
 .footerEnlaces{
@@ -34,9 +43,9 @@ footer a{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    gap: 50%; 
+    gap: 50%;
+    
 }
-
 
 .redes{
     padding: 10px;
