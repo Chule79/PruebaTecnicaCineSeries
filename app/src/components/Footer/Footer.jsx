@@ -30,25 +30,25 @@ const Footer = () => {
           <p>Copyright ⓒ 2016 DEMO Streaming. All Rights Reserved.</p>
         </div>
         <div className="iconos">
-          <div className="redes">
-            <NavLink>
+          <div >
+            <NavLink className="redes">
               <img src="https://res.cloudinary.com/dryxaftwn/image/upload/v1667585931/mqepuhvgkfgk00umlqrw.svg" />
             </NavLink>
-            <NavLink>
+            <NavLink className="redes">
               <img src="https://res.cloudinary.com/dryxaftwn/image/upload/v1667585932/kai1kmazb4khkysftgsr.svg" />
             </NavLink>
-            <NavLink>
+            <NavLink className="redes">
               <img src="https://res.cloudinary.com/dryxaftwn/image/upload/v1667585931/tvrgwygbvg4pxelgfthn.svg" />
             </NavLink>
           </div>
           <div className="plataformas">
-            <NavLink>
+            <NavLink className="redes">
               <img src="https://res.cloudinary.com/dryxaftwn/image/upload/v1667586094/jrvthf08intrxzr12lgg.svg" />
             </NavLink>
-            <NavLink>
+            <NavLink className="redes">
               <img src="https://res.cloudinary.com/dryxaftwn/image/upload/v1667586094/wp54bhknrou5jarfltru.svg" />
             </NavLink>
-            <NavLink>
+            <NavLink className="redes">
               <img src="https://res.cloudinary.com/dryxaftwn/image/upload/v1667586094/r45g1uvue90ie3mwzmzm.svg" />
             </NavLink>
           </div>
