@@ -1,11 +1,16 @@
 import './App.css';
 
 import { useState } from 'react';
-
-import reactLogo from './assets/react.svg';
+import { Outlet } from 'react-router-dom';
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <main className='padre'>
+        <Outlet />
+      </main>
+    </div>
+  );
 }
 
 export default App;
