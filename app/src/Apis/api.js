@@ -1,5 +1,5 @@
 export async function getObjects(a) {
-  const data = await fetch(`http://localhost:8080/entries?programType=${a}`);
+  const data = await fetch(`https://seroespelis-service.onrender.com/entries?programType=${a}`);
   const res = await data.json();
   const filtrado = await res.filter((object) => object.releaseYear >= 2010);
   const cortado = await filtrado.filter((object, i) => i < 20);
