@@ -9,3 +9,10 @@
     background-color: aliceblue;
     width: 100vw;
 }
+
+
+@media screen and (max-width: 1000px){
+    .seriesEscreen{
+        padding: 1rem 1rem;
+    }
+}

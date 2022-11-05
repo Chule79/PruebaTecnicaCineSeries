@@ -5,3 +5,9 @@
     padding: 1rem 8rem;
     background-color: aliceblue;
 }
+
+@media screen and (max-width: 1000px){
+    .errorScreen{
+        padding: 1rem 1rem;
+    }
+}
