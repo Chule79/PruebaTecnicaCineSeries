@@ -71,4 +71,7 @@ a{
     align-content: center;
     justify-content: center;
    }
+   .pelisIcon{width: 160px;}
+   .seriesIcon{width: 160px;}
+
  }
