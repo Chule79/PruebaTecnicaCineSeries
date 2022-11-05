@@ -15,7 +15,7 @@ const NavPrincipal = () => {
           </Link>
         </li>
         <li>
-          <Link state={'Pelis'} to="pelis">
+          <Link state={'Movies'} to="pelis">
             <div className="pelisIcon">
               <h3>PELIS</h3>
             </div>

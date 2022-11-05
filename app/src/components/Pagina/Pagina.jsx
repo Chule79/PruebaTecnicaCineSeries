@@ -3,7 +3,7 @@ import './Pagina.css';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 const Pagina = () => {
-  const [pag, setPag] = useState('Home');
+  const [pag, setPag] = useState('Titles');
   const location = useLocation();
   useEffect(() => {
     setPag(location.state);
@@ -11,7 +11,7 @@ const Pagina = () => {
   
   return (
     <div className="Pagina">
-      <h3>Pagina {pag}</h3>
+      <h3>Popular {pag}</h3>
     </div>
   );
 };

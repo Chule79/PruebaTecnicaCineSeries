@@ -19,7 +19,7 @@ const Pelis = () => {
   return (
     <>
       <div className="volver">
-        <Link state={'Home'} to="/">
+        <Link state={'Titles'} to="/">
           ⬅ Volver
         </Link>
       </div>
