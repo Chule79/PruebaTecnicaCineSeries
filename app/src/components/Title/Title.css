@@ -25,3 +25,12 @@
     align-content: center;
     gap: 2rem;
 }
+
+@media screen and (max-width: 1000px){
+    .botonesT{ 
+        flex-direction: row;
+    }
+    .title{
+        padding: 1rem 2rem;
+    }
+}
