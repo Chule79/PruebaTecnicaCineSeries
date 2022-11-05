@@ -7,7 +7,7 @@ footer{
     flex-wrap: wrap;
     flex-direction: column;
     gap: 2rem;
-    padding: 4rem 8rem;
+    padding: 2rem 8rem;
     border-top: 2px aliceblue solid;
     
 }
@@ -43,10 +43,22 @@ footer a{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    gap: 50%;
+    justify-content: space-between;
+    align-content: center;
     
 }
 
 .redes{
     padding: 10px;
 }
+
+@media screen and (max-width: 1000px){
+    footer{
+        padding: 6rem;
+    }
+    .excepcion{
+        border-right: solid aliceblue 2px;
+        padding: 0px 25px 0px 25px;
+    }
+   
+ }

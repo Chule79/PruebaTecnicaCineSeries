@@ -1,0 +1,7 @@
+.errorScreen{
+    height: 63vh;
+    width: 100vw;
+    overflow:scroll;
+    padding: 1rem 8rem;
+    background-color: aliceblue;
+}

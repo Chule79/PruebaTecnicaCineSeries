@@ -1,0 +1,46 @@
+.modal {
+    font-size: 12px;
+    background-color: #040005;
+    background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+    width: 300px;
+    color: #cfcece;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2rem;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .modal > .header {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+  .foto img{
+    width:150px ;
+  }

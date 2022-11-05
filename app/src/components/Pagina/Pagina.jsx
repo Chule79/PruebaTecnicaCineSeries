@@ -1,8 +1,19 @@
 import './Pagina.css';
 
-import React from 'react';
+import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 const Pagina = () => {
-  return <div className="Pagina"><h3>Pagina</h3></div>;
+  const [pag, setPag] = useState('Home');
+  const location = useLocation();
+  useEffect(() => {
+    setPag(location.state);
+  }, [location])
+  
+  return (
+    <div className="Pagina">
+      <h3>Pagina {pag}</h3>
+    </div>
+  );
 };
 
 export default Pagina;

@@ -1,25 +1,25 @@
 import './Navs.css';
 
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const NavPrincipal = () => {
   return (
     <nav>
       <ul>
         <li>
-          <NavLink to="series">
+          <Link state={'Series'} to="series">
             <div className="seriesIcon">
               <h3>SERIES</h3>
             </div>
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink to="pelis">
+          <Link state={'Pelis'} to="pelis">
             <div className="pelisIcon">
               <h3>PELIS</h3>
             </div>
-          </NavLink>
+          </Link>
         </li>
       </ul>
     </nav>
