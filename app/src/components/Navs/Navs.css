@@ -45,8 +45,7 @@ ul{
     list-style: none;
     height: 70%;
     width: 100%;
-    align-content: center;
-    justify-content: center;
+    
 }
 
 h3{
@@ -68,5 +67,8 @@ a{
         justify-content: center;
         
     }
-   
+   ul{
+    align-content: center;
+    justify-content: center;
+   }
  }
