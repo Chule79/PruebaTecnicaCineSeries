@@ -1,6 +1,7 @@
 .Pagina{
     background-color: rgb(56, 56, 56);
     padding: 1rem 8rem;
+    border-bottom: 2px aliceblue solid;
 }
 .Pagina h3{
     text-align: left;
