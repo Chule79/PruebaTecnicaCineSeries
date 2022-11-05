@@ -4,7 +4,7 @@ nav{
     overflow:scroll;
     padding: 4rem 8rem;
     background-color: aliceblue;
-    
+   
 }
 ::-webkit-scrollbar {
     display: none;
@@ -45,6 +45,8 @@ ul{
     list-style: none;
     height: 70%;
     width: 100%;
+    align-content: center;
+    justify-content: center;
 }
 
 h3{
@@ -62,7 +64,8 @@ a{
     nav{
         
         padding: 0.5rem 0.5rem;
-        
+        align-content: center;
+        justify-content: center;
         
     }
    
