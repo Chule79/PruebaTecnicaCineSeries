@@ -60,5 +60,8 @@ footer a{
         border-right: solid aliceblue 2px;
         padding: 0px 25px 0px 25px;
     }
-   
+    
+    .footerEnlaces{
+        flex-direction: column;
+    }
  }
