@@ -27,7 +27,7 @@ export const AllObject = ({ object }) => {
             </>
           ))
         ) : (
-          <p>No existen lo busca 😢</p>
+          <p>Loading ...</p>
         )}
       </div>
     </div>
