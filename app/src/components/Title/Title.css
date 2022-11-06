@@ -7,8 +7,10 @@
     gap: 1rem;
     
 }
-.title h3{
+.title h1{
     text-align: left;
+    font-weight: lighter;
+    color: aliceblue;
 }
 
 .login a{

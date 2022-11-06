@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Title = () => {
   return (
     <div className="title">
-      <h3>DEMO Streaming</h3>
+      <h1>DEMO Streaming</h1>
       <div className='botonesT'>
         <div className='login'>
           <NavLink> Login</NavLink>
