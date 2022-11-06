@@ -49,7 +49,7 @@ const Series = () => {
           <select
             name="cantidad"
             id="cantidad"
-            className="cantidad"
+            className="filtrar"
             onChange={(ev) => setCantidad(ev.target.value)}
           >
             <option value="5">5</option>
